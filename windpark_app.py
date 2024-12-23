@@ -38,19 +38,19 @@ st.markdown(
     }
     /* Style the main page title */
     h1 {
-        font-size: 24px;  /* Adjust title font size */
+        font-size: 18px;  /* Adjust title font size */
         color: white;   /* Change title color (optional) */
     }
 
     /* Style subheaders */
     h2 {
-        font-size: 16px;  /* Adjust subheader font size */
+        font-size: 12px;  /* Adjust subheader font size */
         color: white;   /* Change subheader color (optional) */
     }
 
     /* Style smaller headers */
     h3 {
-        font-size: 14px;  /* Adjust smaller header font size */
+        font-size: 8px;  /* Adjust smaller header font size */
         color: #white;   /* Change smaller header color (optional) */
     }   
     /* Set the sidebar width */
