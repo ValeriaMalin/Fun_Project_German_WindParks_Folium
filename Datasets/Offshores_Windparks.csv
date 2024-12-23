@@ -1,0 +1,46 @@
+Name,AnzahlWKAs,Leistung(MW),Latitude_cor,Longitude_cor,Status,"Windkraftanlagentyp(Leistung, Rotordurchmesser)",Inbetrieb­nahme(Jahr),Anfangjahr,Location,Manufacturer
+alpha ventus,6.0,30.24,54.00833333333333,6.598333333333333,in Betrieb,"REpower 5M (5,08 MW, 126,5 m)",2010,2010,Nordsee,Senvion
+alpha ventus,6.0,30.24,54.00833333333333,6.598333333333333,in Betrieb,"AREVA Multibrid M5000-116(5,0 MW, 116,0 m)",2010,2010,Nordsee,AREVA
+BARD Offshore I,80.0,400.0,54.358333333333334,5.9750000000000005,in Betrieb,"BARD5.0(5,0 MW, 122,0 m)",2013,2013,Nordsee,BARD
+Riffgat,30.0,113.4,53.69,6.48,in Betrieb,"Siemens SWT-3.6-120(3,78 MW, 120,0 m)",2014,2014,Nordsee,Siemens
+Amrumbank West,80.0,302.4,54.5,7.8,in Betrieb,"Siemens SWT-3.6-120(3,78 MW, 120,0 m)",2015,2015,Nordsee,Siemens
+Borkum Riffgrund 1,78.0,312.0,53.96666666666667,6.55,in Betrieb,"Siemens SWT-4.0-120(4,0 MW, 120,0 m)",2015,2015,Nordsee,Siemens
+Butendiek,80.0,288.0,54.9,7.75,in Betrieb,"Siemens SWT-3.6-120(3,6 MW, 120,0 m)",2015,2015,Nordsee,Siemens
+DanTysk,80.0,302.4,55.15,7.175000000000001,in Betrieb,"Siemens SWT-3.6-120(3,78 MW, 120,0 m)",2015,2015,Nordsee,Siemens
+Global Tech I,80.0,400.0,54.5,6.358333333333333,in Betrieb,"AREVA Multibrid M5000-116(5,0 MW, 116,0 m)",2015,2015,Nordsee,AREVA
+MeerwindSüd/Ost,80.0,288.0,54.38333333333333,7.683333333333334,in Betrieb,"Siemens SWT-3.6-120(3,6 MW, 120,0 m)",2015,2015,Nordsee,Siemens
+Nordsee Ost,48.0,295.2,54.43333333333333,7.683333333333334,in Betrieb,"Senvion6.2M126(6,15 MW, 126,0 m)",2015,2015,Nordsee,Senvion
+Trianel Windpark Borkum(Phase 1),40.0,200.0,54.04611111111111,6.456944444444445,in Betrieb,"AREVA Multibrid M5000-116(5,0 MW, 116,0 m)",2015,2015,Nordsee,AREVA
+Gode Wind 1,55.0,346.0,54.06666666666667,7.033333333333333,in Betrieb,"Siemens SWT-6.0-154(6,3 MW, 154,0 m)",2017,2017,Nordsee,Siemens
+Gode Wind 2,42.0,264.0,54.05,7.016666666666667,in Betrieb,"Siemens SWT-6.0-154(6,3 MW, 154,0 m)",2017,2017,Nordsee,Siemens
+Nordergründe,18.0,110.7,53.833333333333336,8.166666666666666,in Betrieb,"Senvion 6.2M126(6,15 MW, 126,0 m)",2017,2017,Nordsee,Senvion
+Nordsee One,54.0,332.1,53.96666666666667,6.8,in Betrieb,"Senvion 6.2M126(6,15 MW, 126,0 m)",2017,2017,Nordsee,Senvion
+Sandbank(Phase 1),72.0,288.0,55.18333333333333,6.85,in Betrieb,"Siemens SWT-4.0-130(4,0 MW, 130,0 m)",2017,2017,Nordsee,Siemens
+Veja Mate,67.0,402.0,54.316944444444445,5.870833333333334,in Betrieb,"Siemens SWT-6.0-154(6,0 MW, 154,0 m)",2017,2017,Nordsee,Siemens
+Borkum Riffgrund 2,56.0,464.8,53.95583333333334,6.495833333333334,in Betrieb,"MHI Vestas V164-8.0 MW(8,3 MW, 164,0 m)",2019,2019,Nordsee,Vestas
+Deutsche Bucht,31.0,260.4,54.305,5.7988888888888885,in Betrieb,"MHI Vestas V164-8.0 MW(8,4 MW, 164,0 m)",2019,2019,Nordsee,Vestas
+Merkur Offshore,66.0,396.0,54.03333333333333,6.55,in Betrieb,"GE Haliade 150-6 MW(6,0 MW, 151,0 m)",2019,2019,Nordsee,GE
+Hohe See,71.0,521.85,54.43333333333333,6.316666666666666,in Betrieb,"Siemens SWT-7.0-154(7,35 MW, 154,0 m)",2019,2019,Nordsee,Siemens
+Albatros(Hohe See Extension),16.0,117.6,54.5,6.4,in Betrieb,"Siemens SWT-7.0-154(7,35 MW, 154,0 m)",2020,2020,Nordsee,Siemens
+Trianel Windpark Borkum(Phase 2),32.0,203.2,54.05,6.466111111111111,in Betrieb,"Senvion 6.3M152(6,33 MW, 152,0 m)",2020,2020,Nordsee,Senvion
+Kaskasi,38.0,342.0,54.48888888888889,7.695,in Betrieb,"Siemens Gamesa SG 8.0-167 DD(9,0 MW, 167,0 m)",2023,2023,Nordsee,Siemens Gamesa
+Gode Wind 3,23.0,242.0,54.03694444444445,7.109999999999999,in Teilbetrieb,"Siemens Gamesa SG 11.0-200 DD(11,0 MW, 200,0 m)",2024,2024,Nordsee,Siemens Gamesa
+Borkum Riffgrund(Phase 3),83.0,913.0,54.04694444444444,6.233888888888889,in Bau,"Siemens Gamesa SG 11.0-200 DD(11,0 MW, 200,0 m)",2025,2025,Nordsee,Siemens Gamesa
+He dreiht,64.0,960.0,54.365,6.186111111111112,in Bau,"MHI-Vestas V236-15.0MW(15,0 MW, 236,0 m)",2025,2025,Nordsee,Vestas
+Nordseecluster A(Flächen N-3.7 und N-3.8),44.0,660.0,54.043055555555554,7.0811111111111105,in Planung,"Vestas V236-15.0 MW(15,0 MW, 236,0 m)",2027,2027,Nordsee,Vestas
+Nordlicht I,,980.0,54.285,6.303055555555555,in Planung,,2027,2027,Nordsee,
+Nordseecluster B(Flächen N-3.5 und N-3.6),,900.0,54.03194444444444,6.843055555555555,in Planung,"Vestas V236-15.0 MW(15,0 MW, 236,0 m)",2028,2028,Nordsee,Vestas
+Nordlicht II,,630.0,54.26611111111111,5.95,in Planung,,2028,2028,Nordsee,
+Fläche N-6.7,16.0,270.0,54.361111111111114,5.845,in Planung,"Mingyang(18,5 MW, 260m)[1]",2028,2028,Nordsee,Mingyang
+Fläche N-11.1,,2000.0,54.72611111111112,6.378055555555555,in Planung,,2030,2030,Nordsee,
+Fläche N-12.1,,2000.0,54.76805555555555,6.161944444444445,in Planung,,2030,2030,Nordsee,
+Fläche N-12.2,,2000.0,54.87305555555555,6.1211111111111105,in Planung,,2030,2030,Nordsee,
+EnBW Baltic 1,21.0,48.3,54.60888888888889,12.651111111111112,in Betrieb,"Siemens SWT-2.3-93(2,3 MW, 93,0 m)",2011,2011,Ostsee,Siemens
+EnBW Baltic 2,80.0,288.0,54.98194444444445,13.161944444444444,in Betrieb,"Siemens SWT-3.6-120(3,6 MW, 120,0 m)",2015,2015,Ostsee,Siemens
+Wikinger,70.0,353.5,54.83388888888889,14.068055555555556,in Betrieb,"AdwenAD 5-135(5,05 MW, 135,0 m)",2017,2017,Ostsee,Adwen
+Arkona-Becken Südost,60.0,384.0,54.78194444444444,14.121111111111112,in Betrieb,"Siemens SWT-6.0-154(6,4 MW, 154,0 m)",2019,2019,Ostsee,Siemens
+Arcadis Ost 1,27.0,257.2,54.823055555555555,13.643055555555556,in Betrieb,"MHI Vestas V174-9.5 MW(9,525 MW, 174,0 m)",2023,2023,Ostsee,Vestas
+Baltic Eagle,52.0,494.0,54.830000000000005,13.855,in Bau,"MHI Vestas V174-9.5 MW(9,5 MW, 174,0 m)",2024,2024,Ostsee,Vestas
+Gennaker,103.0,927.0,54.61611111111111,12.608055555555556,in Planung,"Siemens Gamesa SG 8.0-167 DD Flex(9,0 MW, 167,0 m)",2026,2026,Ostsee,Siemens Gamesa
+Windanker(Zone O-1.3),,300.0,54.90611111111111,14.005,in Planung,,2026,2026,Ostsee,
+Fläche O-2.2,,1000.0,54.848888888888894,13.775,in Planung,,2030,2030,Ostsee,
