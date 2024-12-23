@@ -16,9 +16,9 @@ import altair as alt
 
 
 df=pd.read_csv('https://github.com/ValeriaMalin/Fun_Project_German_WindParks_Folium/blob/main/Datasets/onshores_windparks.csv')
-offshores=pd.read_csv('ValeriaMalin/Fun_Project_German_WindParks_Folium/Datasets/Offshores_windparks.csv')
-data_l=pd.read_csv('ValeriaMalin/Fun_Project_German_WindParks_Folium/Datasets/geo_landkreis_windparks.csv')
-data_b=pd.read_csv('ValeriaMalin/Fun_Project_German_WindParks_Folium/Datasets/geo_bundesland_windparks.csv')
+offshores=pd.read_csv('https://github.com/ValeriaMalin/Fun_Project_German_WindParks_Folium/blob/main/Datasets/Offshores_windparks.csv')
+data_l=pd.read_csv('https://github.com/ValeriaMalin/Fun_Project_German_WindParks_Folium/blob/main/Datasets/geo_landkreis_windparks.csv')
+data_b=pd.read_csv('https://github.com/ValeriaMalin/Fun_Project_German_WindParks_Folium/blob/main/Datasets/geo_bundesland_windparks.csv')
 
 # Set page configuration
 st.set_page_config(
