@@ -83,14 +83,14 @@ st.markdown(
         color: white !important;
     }
 
-#    /* Expander header and content */
- #   .streamlit-expanderHeader {
-  #      color: white !important;
-   # }
+    /* Expander header and content */
+    .streamlit-expanderHeader {
+        color: white !important;
+    }
 
-    #.streamlit-expanderContent {
-     #   color: white !important;
-    #}
+    .streamlit-expanderContent {
+        color: white !important;
+    }
     </style>
     """,
     unsafe_allow_html=True
