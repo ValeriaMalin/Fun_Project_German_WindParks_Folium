@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 import altair as alt
 
 
-df=pd.read_csv('https://raw.githubusercontent.com/ValeriaMalin/Fun_Project_German_WindParks_Folium/main/Datasets/onshores_windparks.csv')
+df=pd.read_csv('https://raw.githubusercontent.com/ValeriaMalin/Fun_Project_German_WindParks_Folium/main/Datasets/onshores_windparks.csv', delimeter=',')
 offshores=pd.read_csv('https://raw.githubusercontent.com/ValeriaMalin/Fun_Project_German_WindParks_Folium/main/Datasets/Offshores_windparks.csv')
 data_l=pd.read_csv('https://raw.githubusercontent.com/ValeriaMalin/Fun_Project_German_WindParks_Folium/main/Datasets/geo_landkreis_windparks.csv')
 data_b=pd.read_csv('https://raw.githubusercontent.com/ValeriaMalin/Fun_Project_German_WindParks_Folium/main/Datasets/geo_bundesland_windparks.csv')
