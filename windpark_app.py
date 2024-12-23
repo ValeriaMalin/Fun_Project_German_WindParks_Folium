@@ -41,6 +41,10 @@ st.markdown(
         min-width: 200px;  /* Adjust the minimum width */
         max-width: 300px;  /* Adjust the maximum width */
     }
+    [data-testid="stSidebar"] .css-1d391kg {
+    font-size: 14px;  /* Adjust the font size */
+    }
+    
     /* Sidebar background and text */
     .css-1d391kg, .css-1lcbmhc {
         background-color: #121212 !important;  /* Dark sidebar */
