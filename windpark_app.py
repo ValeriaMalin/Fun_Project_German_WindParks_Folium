@@ -59,7 +59,7 @@ st.markdown(
         max-width: 300px;  /* Adjust the maximum width */
     }
     [data-testid="stSidebar"] .css-1d391kg {
-    font-size: 8px;  /* Adjust the font size */
+    font-size: 4px;  /* Adjust the font size */
     }
     
     /* Sidebar background and text */
