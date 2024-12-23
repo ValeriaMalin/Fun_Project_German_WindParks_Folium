@@ -15,10 +15,10 @@ import matplotlib.pyplot as plt
 import altair as alt
 
 
-df=pd.read_csv('/Users/solozobovavaleria/onshores_windparks.csv')
-offshores=pd.read_csv('/Users/solozobovavaleria/offshores_windparks.csv')
-data_l=pd.read_csv('/Users/solozobovavaleria/geo_landkreis_windparks.csv')
-data_b=pd.read_csv('/Users/solozobovavaleria/geo_bundesland_windparks.csv')
+df=pd.read_csv('Datasets/onshores_windparks.csv')
+offshores=pd.read_csv('Datasets/offshores_windparks.csv')
+data_l=pd.read_csv('Datasets/geo_landkreis_windparks.csv')
+data_b=pd.read_csv('Datasets/geo_bundesland_windparks.csv')
 
 # Set page configuration
 st.set_page_config(
