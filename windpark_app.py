@@ -36,7 +36,11 @@ st.markdown(
         background-color: #121212 !important;  /* Dark background */
         color: white !important;  /* White text */
     }
-
+    /* Set the sidebar width */
+    [data-testid="stSidebar"] {
+        min-width: 200px;  /* Adjust the minimum width */
+        max-width: 300px;  /* Adjust the maximum width */
+    }
     /* Sidebar background and text */
     .css-1d391kg, .css-1lcbmhc {
         background-color: #121212 !important;  /* Dark sidebar */
