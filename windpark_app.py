@@ -166,7 +166,7 @@ if page == pages[0]:
     fig1.update_layout(
        plot_bgcolor='rgba(0,0,0,0)',  # Transparent plot background
        paper_bgcolor='rgba(0,0,0,0)', 
-       width=900, height=400,
+       width=1200, height=400,
        xaxis=dict(
               title=dict(text='Year', font=dict(size=16, color='white')),
               tickfont=dict(color='white')),
@@ -245,7 +245,7 @@ if page == pages[0]:
            color='Bundesland',  # Different lines for each Bundesland
            title='Cumulative Turbine Power Over Time by Bundesland',
            labels={'Anfangjahr': 'Year', 'Cumulative Power (MW)': 'Cumulative Turbine Power (MW)'},
-           height=600
+           height=600, width=1200
         )
     
     # Customize the layout to match Streamlit's dark mode styling
