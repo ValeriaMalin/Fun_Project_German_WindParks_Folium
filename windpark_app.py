@@ -15,10 +15,10 @@ import matplotlib.pyplot as plt
 import altair as alt
 
 
-df=pd.read_csv('https://raw.githubusercontent.com/ValeriaMalin/Fun_Project_German_WindParks_Folium/main/Datasets/onshores_windparks.csv', delimiter=';')
-offshores=pd.read_csv('https://raw.githubusercontent.com/ValeriaMalin/Fun_Project_German_WindParks_Folium/main/Datasets/Offshores_windparks.csv', delimiter=';')
-data_l=pd.read_csv('https://raw.githubusercontent.com/ValeriaMalin/Fun_Project_German_WindParks_Folium/main/Datasets/geo_landkreis_windparks.csv', delimiter=';')
-data_b=pd.read_csv('https://raw.githubusercontent.com/ValeriaMalin/Fun_Project_German_WindParks_Folium/main/Datasets/geo_bundesland_windparks.csv', delimiter=';')
+df=pd.read_csv('https://raw.githubusercontent.com/ValeriaMalin/Fun_Project_German_WindParks_Folium/main/Datasets/onshores_windparks.csv')
+offshores=pd.read_csv('https://raw.githubusercontent.com/ValeriaMalin/Fun_Project_German_WindParks_Folium/main/Datasets/Offshores_windparks.csv')
+data_l=pd.read_csv('https://raw.githubusercontent.com/ValeriaMalin/Fun_Project_German_WindParks_Folium/main/Datasets/geo_landkreis_windparks.csv')
+data_b=pd.read_csv('https://raw.githubusercontent.com/ValeriaMalin/Fun_Project_German_WindParks_Folium/main/Datasets/geo_bundesland_windparks.csv')
 
 # Set page configuration
 st.set_page_config(
