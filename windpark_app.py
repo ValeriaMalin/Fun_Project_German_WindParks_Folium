@@ -36,6 +36,23 @@ st.markdown(
         background-color: #121212 !important;  /* Dark background */
         color: white !important;  /* White text */
     }
+    /* Style the main page title */
+    h1 {
+        font-size: 24px;  /* Adjust title font size */
+        color: white;   /* Change title color (optional) */
+    }
+
+    /* Style subheaders */
+    h2 {
+        font-size: 16px;  /* Adjust subheader font size */
+        color: white;   /* Change subheader color (optional) */
+    }
+
+    /* Style smaller headers */
+    h3 {
+        font-size: 14px;  /* Adjust smaller header font size */
+        color: #white;   /* Change smaller header color (optional) */
+    }   
     /* Set the sidebar width */
     [data-testid="stSidebar"] {
         min-width: 200px;  /* Adjust the minimum width */
