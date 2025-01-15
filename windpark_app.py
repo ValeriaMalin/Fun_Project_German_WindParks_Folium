@@ -40,11 +40,6 @@ st.markdown("""
     margin-bottom: -7rem;
 }
 
-[data-testid="stMetric"] {
-    background-color: #393939;
-    text-align: center;
-    padding: 15px 0;
-}
 [data-testid="stVerticalBlock"] {
     padding-left: 0rem;
     padding-right: 0rem;
