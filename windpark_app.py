@@ -31,69 +31,82 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-    /* General page background */
-    .block-container {
-        background-color: #121212 !important;  /* Dark background */
-        color: white !important;  /* White text */
-    }
-    /* Style the main page title */
-    h1 {
-        font-size: 18px;  /* Adjust title font size */
-        color: white;   /* Change title color (optional) */
-    }
 
-    /* Style subheaders */
-    h2 {
-        font-size: 12px;  /* Adjust subheader font size */
-        color: white;   /* Change subheader color (optional) */
-    }
+[data-testid="block-container"] {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    margin-bottom: -7rem;
+}
 
-    /* Style smaller headers */
-    h3 {
-        font-size: 8px;  /* Adjust smaller header font size */
-        color: #white;   /* Change smaller header color (optional) */
-    }   
-    /* Set the sidebar width */
-    [data-testid="stSidebar"] {
-        min-width: 200px;  /* Adjust the minimum width */
-        max-width: 300px;  /* Adjust the maximum width */
-    }
-    [data-testid="stSidebar"] .css-1d391kg {
-    font-size: 4px;  /* Adjust the font size */
-    }
+[data-testid="stVerticalBlock"] {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
     
-    /* Sidebar background and text */
-    .css-1d391kg, .css-1lcbmhc {
-        background-color: #121212 !important;  /* Dark sidebar */
-        color: white !important;  /* White text */
-    }
-    /* Sidebar styling */
-    [data-testid="stSidebar"] {
-        background-color: #2f2f2f; /* Slightly lighter dark background */
-        color: #fafafa; /* White text */
-    }
+/* General page background */
+.block-container {
+background-color: #121212 !important;  /* Dark background */
+color: white !important;  /* White text */
+}
+/* Style the main page title */
+h1 {
+font-size: 18px;  /* Adjust title font size */
+color: white;   /* Change title color (optional) */
+}
 
-    /* Headers, subheaders, and other text elements */
-    h1, h2, h3, h4, h5, h6, p, span, div {
-        color: white !important;
-    }
+/* Style subheaders */
+h2 {
+font-size: 12px;  /* Adjust subheader font size */
+color: white;   /* Change subheader color (optional) */
+}
 
-    /* Metrics styling */
-    .stMetric-value, .stMetric-label {
-        color: white !important;
-    }
+/* Style smaller headers */
+h3 {
+font-size: 8px;  /* Adjust smaller header font size */
+color: #white;   /* Change smaller header color (optional) */
+}   
+/* Set the sidebar width */
+[data-testid="stSidebar"] {
+min-width: 200px;  /* Adjust the minimum width */
+max-width: 300px;  /* Adjust the maximum width */
+}
+[data-testid="stSidebar"] .css-1d391kg {
+font-size: 4px;  /* Adjust the font size */
+}
+    
+/* Sidebar background and text */
+.css-1d391kg, .css-1lcbmhc {
+background-color: #121212 !important;  /* Dark sidebar */
+color: white !important;  /* White text */
+}
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+background-color: #2f2f2f; /* Slightly lighter dark background */
+color: #fafafa; /* White text */
+}
 
-    /* Expander header and content */
-    .streamlit-expanderHeader {
-        color: white !important;
-    }
+/* Headers, subheaders, and other text elements */
+h1, h2, h3, h4, h5, h6, p, span, div {
+color: white !important;
+}
 
-    .streamlit-expanderContent {
-        color: white !important;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
+/* Metrics styling */
+.stMetric-value, .stMetric-label {
+color: white !important;
+}
+/* Expander header and content */
+.streamlit-expanderHeader {
+color: white !important;
+}
+
+.streamlit-expanderContent {
+color: white !important;
+}
+</style>
+""",
+unsafe_allow_html=True
 )
 
 st.title("Wind energy  in Germany in 2024 - Onshore and offshore turbines dashboard")
