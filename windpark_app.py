@@ -52,7 +52,7 @@ st.markdown("""
 
 /* Sidebar font size */
 [data-testid="stSidebar"] * {
-    font-size: 10px !important; /* Reduce sidebar font size */
+    font-size: 12px !important; /* Reduce sidebar font size */
 }
 
 /* Plot font size adjustments */
@@ -61,7 +61,7 @@ st.markdown("""
 .plot-container .xlabel,
 .plot-container .ylabel,
 .plot-container .title {
-    font-size: 8px !important; /* Adjust font size for plots */
+    font-size: 10px !important; /* Adjust font size for plots */
     color: white !important; /* Ensure text remains visible */
 }
 
