@@ -13,7 +13,7 @@ they involved scraping, collection, celaning and preprocessing data, as well as 
 3. 3_offshore_windParks_scraping.ipynb : Scraping of the table from WIkipedia , I needed here the coordiantes of the Offshores Wind Parks
 4. Mapping_windcrafts.ipynb  : Work with Folum, Marker Cluster for the Offshore WindParks, and two Choropleths layers to show the numbers of the Windcrafts for every Landkreis and their average Age.
 
-The reposititiry contains the script for streamlit app: windpark_app.py. The appy can be deployed on: ([https://funprojectgermanwindparksfolium-cufat2h47zdszynqkdpb4w.streamlit.app](https://germanwindparks2024.streamlit.app)) 
+The reposititiry contains the script for streamlit app: windpark_app.py. The appy can be deployed on: (https://germanwindparks2024.streamlit.app)
 
 The repository includes: datasets obtained during the work  - dataset containing all the wind turbines in Germany to 2024, dataset containig all the inforamtion about off-shore windparks, and the datasets containing windparks together with geo-spatial data fpor Landkreises and Bundesländer of Germany.
 
