@@ -188,6 +188,7 @@ if page == pages[0]:
        plot_bgcolor='rgba(0,0,0,0)',  # Transparent plot background
        paper_bgcolor='rgba(0,0,0,0)',
        autosize=True, 
+       width=None, height=300,
        xaxis=dict(
               title=dict(text='Year', font=dict(size=16, color='white')),
               tickfont=dict(color='white')),
