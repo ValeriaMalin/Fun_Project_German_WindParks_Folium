@@ -359,7 +359,7 @@ if page == pages[0]:
           title_font=dict(size=20, color='white')
         )
        # Show the plot
-       return fg4 
+       return fig4 
     st.subheader("Top 10 Manufacturers by Turbine Count in Each Region")     
     
     fig4= plot_top_10_manufacturers_by_count()
