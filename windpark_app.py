@@ -75,19 +75,19 @@ st.markdown("""
 
 /* Style the main page title */
 h1 {
-    font-size: 20px !important; /* Adjust title font size */
+    font-size: 24px !important; /* Adjust title font size */
     color: white; /* Change title color */
 }
 
 /* Style subheaders */
 h2 {
-    font-size: 16px !important; /* Adjust subheader font size */
+    font-size: 18px !important; /* Adjust subheader font size */
     color: white; /* Change subheader color */
 }
 
 /* Style smaller headers */
 h3 {
-    font-size: 14px !important; /* Adjust smaller header font size */
+    font-size: 16px !important; /* Adjust smaller header font size */
     color: white; /* Change smaller header color */
 }   
 
@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6, p, span, div {
 /* Metrics styling */
 .stMetric-value, .stMetric-label {
     color: white !important;
-    font-size: 12px !important; /* Smaller metric text */
+    font-size: 16px !important; /* Smaller metric text */
 }
 
 /* Expander header and content */
@@ -187,7 +187,7 @@ if page == pages[0]:
     fig1.update_layout(
        plot_bgcolor='rgba(0,0,0,0)',  # Transparent plot background
        paper_bgcolor='rgba(0,0,0,0)',
-       width=700, height=300,
+       width=800, height=300,
        xaxis=dict(
               title=dict(text='Year', font=dict(size=16, color='white')),
               tickfont=dict(color='white')),
@@ -234,7 +234,7 @@ if page == pages[0]:
  
     # Set a new background color
     fig2.update_layout(
-       width=700, height=400,
+       width=800, height=500,
        template='plotly_dark',
        paper_bgcolor="rgba(0, 0, 0, 0)",  # Transparent figure background
        plot_bgcolor="rgba(0, 0, 0, 0)",   # Transparent plot background
@@ -273,7 +273,7 @@ if page == pages[0]:
     
     # Customize the layout to match Streamlit's dark mode styling
         fig3.update_layout(
-           width=700, height=400,
+           width=800, height=500,
            plot_bgcolor='rgba(0,0,0,0)',  # Transparent plot background
            paper_bgcolor='rgba(0,0,0,0)',  # Transparent paper background
            font=dict(color='white'),  # White font for text
@@ -339,7 +339,7 @@ if page == pages[0]:
         )
         # Update layout for Streamlit styling
        fig4.update_layout(
-          width=700, height=400,
+          width=800, height=500,
           xaxis_tickangle=-45,  # Rotate x-axis labels
           xaxis=dict(
              title=dict(text='Bundesland', font=dict(size=16, color='white')),
