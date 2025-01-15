@@ -75,19 +75,19 @@ st.markdown("""
 
 /* Style the main page title */
 h1 {
-    font-size: 14px; /* Adjust title font size */
+    font-size: 14px !important; /* Adjust title font size */
     color: white; /* Change title color */
 }
 
 /* Style subheaders */
 h2 {
-    font-size: 12px; /* Adjust subheader font size */
+    font-size: 12px !important; /* Adjust subheader font size */
     color: white; /* Change subheader color */
 }
 
 /* Style smaller headers */
 h3 {
-    font-size: 10px; /* Adjust smaller header font size */
+    font-size: 10px !important; /* Adjust smaller header font size */
     color: white; /* Change smaller header color */
 }   
 
@@ -187,7 +187,7 @@ if page == pages[0]:
     fig1.update_layout(
        plot_bgcolor='rgba(0,0,0,0)',  # Transparent plot background
        paper_bgcolor='rgba(0,0,0,0)',
-       width=600, height=300,
+       width=700, height=300,
        xaxis=dict(
               title=dict(text='Year', font=dict(size=16, color='white')),
               tickfont=dict(color='white')),
@@ -339,6 +339,7 @@ if page == pages[0]:
         )
         # Update layout for Streamlit styling
        fig4.update_layout(
+          width=700, height=400,
           xaxis_tickangle=-45,  # Rotate x-axis labels
           xaxis=dict(
              title=dict(text='Bundesland', font=dict(size=16, color='white')),
@@ -449,6 +450,7 @@ These turbines represent the pinnacle of wind energy technology, offering flexib
 
      # Customize the layout to match the app style
      fig5.update_layout(
+       width=700, height=400,
        barmode='stack', 
        xaxis_tickangle=-45,  # Rotate x-axis labels
        xaxis=dict(
