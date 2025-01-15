@@ -235,6 +235,7 @@ if page == pages[0]:
  
     # Set a new background color
     fig2.update_layout(
+       width=600, height=400,
        template='plotly_dark',
        paper_bgcolor="rgba(0, 0, 0, 0)",  # Transparent figure background
        plot_bgcolor="rgba(0, 0, 0, 0)",   # Transparent plot background
