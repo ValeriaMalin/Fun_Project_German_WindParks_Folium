@@ -60,7 +60,7 @@ st.markdown("""
 .js-plotly-plot .xtick, .js-plotly-plot .ytick, 
 .js-plotly-plot .xlabel, .js-plotly-plot .ylabel, 
 .js-plotly-plot .title {
-    font-size: 6px !important; /* Adjust plot font size */
+    font-size: 8px !important; /* Adjust plot font size */
 }
 
 /* General page background */
