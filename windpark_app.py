@@ -52,7 +52,7 @@ st.markdown("""
 
 /* Sidebar font size */
 [data-testid="stSidebar"] * {
-    font-size: 12px !important; /* Reduce sidebar font size */
+    font-size: 14px !important; /* Reduce sidebar font size */
 }
 
 /* Plot font size adjustments */
