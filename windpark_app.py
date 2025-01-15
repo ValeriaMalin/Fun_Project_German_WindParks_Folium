@@ -360,9 +360,9 @@ if page == pages[0]:
         )
        # Show the plot
        return fg4 
-
+    st.subheader("Top 10 Manufacturers by Turbine Count in Each Region")     
+    
     fig4= plot_top_10_manufacturers_by_count()
-    st.subheader("Top 10 Manufacturers by Turbine Count in Each Region")   
     st.plotly_chart(fig4, use_container_width=True)
 
 
