@@ -47,6 +47,14 @@ st.markdown("""
     background-color: #2f2f2f; /* Slightly lighter dark background */
     color: #fafafa; /* White text */
 }
+
+/* Sidebar font size */
+[data-testid="stSidebar"] .css-1d391kg, 
+[data-testid="stSidebar"] .css-1lcbmhc {
+    font-size: 12px !important; /* Smaller font size for sidebar */
+}
+
+
 [data-testid="stVerticalBlock"] {
     padding-left: 0rem;
     padding-right: 0rem;
