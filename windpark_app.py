@@ -187,8 +187,7 @@ if page == pages[0]:
     fig1.update_layout(
        plot_bgcolor='rgba(0,0,0,0)',  # Transparent plot background
        paper_bgcolor='rgba(0,0,0,0)',
-       autosize=True, 
-       width=None, height=300,
+       width=600, height=300,
        xaxis=dict(
               title=dict(text='Year', font=dict(size=16, color='white')),
               tickfont=dict(color='white')),
@@ -235,7 +234,7 @@ if page == pages[0]:
  
     # Set a new background color
     fig2.update_layout(
-       width=600, height=400,
+       width=700, height=400,
        template='plotly_dark',
        paper_bgcolor="rgba(0, 0, 0, 0)",  # Transparent figure background
        plot_bgcolor="rgba(0, 0, 0, 0)",   # Transparent plot background
@@ -274,6 +273,7 @@ if page == pages[0]:
     
     # Customize the layout to match Streamlit's dark mode styling
         fig3.update_layout(
+           width=700, height=400,
            plot_bgcolor='rgba(0,0,0,0)',  # Transparent plot background
            paper_bgcolor='rgba(0,0,0,0)',  # Transparent paper background
            font=dict(color='white'),  # White font for text
