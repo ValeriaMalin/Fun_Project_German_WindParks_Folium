@@ -187,7 +187,7 @@ if page == pages[0]:
     fig1.update_layout(
        plot_bgcolor='rgba(0,0,0,0)',  # Transparent plot background
        paper_bgcolor='rgba(0,0,0,0)',
-       width=800, height=300,
+       width=900, height=300,
        xaxis=dict(
               title=dict(text='Year', font=dict(size=16, color='white')),
               tickfont=dict(color='white')),
@@ -234,7 +234,7 @@ if page == pages[0]:
  
     # Set a new background color
     fig2.update_layout(
-       width=800, height=500,
+       width=900, height=500,
        template='plotly_dark',
        paper_bgcolor="rgba(0, 0, 0, 0)",  # Transparent figure background
        plot_bgcolor="rgba(0, 0, 0, 0)",   # Transparent plot background
@@ -273,7 +273,7 @@ if page == pages[0]:
     
     # Customize the layout to match Streamlit's dark mode styling
         fig3.update_layout(
-           width=800, height=500,
+           width=900, height=500,
            plot_bgcolor='rgba(0,0,0,0)',  # Transparent plot background
            paper_bgcolor='rgba(0,0,0,0)',  # Transparent paper background
            font=dict(color='white'),  # White font for text
@@ -282,7 +282,7 @@ if page == pages[0]:
               title=dict(text='Year', font=dict(size=16, color='white')),
               tickfont=dict(color='white')),
             yaxis=dict(
-               title=dict(text='Cumulative Turbine Power (MW)', font=dict(size=16, color='white')),
+               title=dict(text='Cumulative Turbine Power (MW)', font=dict(size=14, color='white')),
                tickfont=dict(color='white')),
             legend_title=dict(font=dict(color='white')),  
             legend=dict(font=dict(color='white'))  # White font for legend
