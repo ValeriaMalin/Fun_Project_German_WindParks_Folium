@@ -75,19 +75,19 @@ st.markdown("""
 
 /* Style the main page title */
 h1 {
-    font-size: 18px; /* Adjust title font size */
+    font-size: 14px; /* Adjust title font size */
     color: white; /* Change title color */
 }
 
 /* Style subheaders */
 h2 {
-    font-size: 14px; /* Adjust subheader font size */
+    font-size: 12px; /* Adjust subheader font size */
     color: white; /* Change subheader color */
 }
 
 /* Style smaller headers */
 h3 {
-    font-size: 12px; /* Adjust smaller header font size */
+    font-size: 10px; /* Adjust smaller header font size */
     color: white; /* Change smaller header color */
 }   
 
@@ -99,18 +99,18 @@ h1, h2, h3, h4, h5, h6, p, span, div {
 /* Metrics styling */
 .stMetric-value, .stMetric-label {
     color: white !important;
-    font-size: 14px !important; /* Smaller metric text */
+    font-size: 12px !important; /* Smaller metric text */
 }
 
 /* Expander header and content */
 .streamlit-expanderHeader {
     color: white !important;
-    font-size: 12px !important;
+    font-size: 10px !important;
 }
 
 .streamlit-expanderContent {
     color: white !important;
-    font-size: 12px !important;
+    font-size: 10px !important;
 }
 </style>
 """,
