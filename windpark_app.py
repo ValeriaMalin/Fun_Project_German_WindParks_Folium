@@ -277,7 +277,7 @@ if page == pages[0]:
            plot_bgcolor='rgba(0,0,0,0)',  # Transparent plot background
            paper_bgcolor='rgba(0,0,0,0)',  # Transparent paper background
            font=dict(color='white'),  # White font for text
-           title_font=dict(size=20, color='white'),  # Title font styling
+          # title_font=dict(size=20, color='white'),  # Title font styling
            xaxis=dict(
               title=dict(text='Year', font=dict(size=16, color='white')),
               tickfont=dict(color='white')),
@@ -335,7 +335,7 @@ if page == pages[0]:
           x='NUTS 1.1',
           y='Turbine Count',
           color='Manufacturer',
-          title='Top 10 Manufacturers by Turbine Count in Each Region',
+        #  title='Top 10 Manufacturers by Turbine Count in Each Region',
           labels={'NUTS 1.1': 'Bundesland', 'Turbine Count': 'Number of Turbines'},
           height=600
         )
@@ -359,9 +359,10 @@ if page == pages[0]:
           title_font=dict(size=20, color='white')
         )
        # Show the plot
-       return fig4 
+       return fg4 
 
     fig4= plot_top_10_manufacturers_by_count()
+    st.subheader("Top 10 Manufacturers by Turbine Count in Each Region")   
     st.plotly_chart(fig4, use_container_width=True)
 
 
