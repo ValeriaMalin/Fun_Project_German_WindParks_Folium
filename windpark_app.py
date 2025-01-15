@@ -31,7 +31,8 @@ alt.theme.enable("dark")
 # Inject custom CSS for additional styling
 st.markdown("""
 <style>
-/* Main container adjustments adjustments */
+
+/* Main container adjustments */
 [data-testid="block-container"] {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -51,97 +52,59 @@ st.markdown("""
 /* Sidebar font size */
 [data-testid="stSidebar"] .css-1d391kg, 
 [data-testid="stSidebar"] .css-1lcbmhc {
-    font-size: 9px !important; /* Smaller font size for sidebar */
+    font-size: 12px !important; /* Smaller font size for sidebar */
 }
 
-
-[data-testid="stVerticalBlock"] {
-    padding-left: 0rem;
-    padding-right: 0rem;
+/* Plot text adjustments */
+.js-plotly-plot .xtick, .js-plotly-plot .ytick, 
+.js-plotly-plot .xlabel, .js-plotly-plot .ylabel, 
+.js-plotly-plot .title {
+    font-size: 10px !important; /* Adjust plot font size */
 }
 
-[data-testid="stMetricLabel"] {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-[data-testid="stMetricDeltaIcon-Up"] {
-    position: relative;
-    left: 38%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-}
-
-[data-testid="stMetricDeltaIcon-Down"] {
-    position: relative;
-    left: 38%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-}
-    
 /* General page background */
 .block-container {
-background-color: #121212 !important;  /* Dark background */
-color: white !important;  /* White text */
+    background-color: #121212 !important; /* Dark background */
+    color: white !important; /* White text */
 }
+
 /* Style the main page title */
 h1 {
-font-size: 18px;  /* Adjust title font size */
-color: white;   /* Change title color (optional) */
+    font-size: 18px; /* Adjust title font size */
+    color: white; /* Change title color (optional) */
 }
 
 /* Style subheaders */
 h2 {
-font-size: 12px;  /* Adjust subheader font size */
-color: white;   /* Change subheader color (optional) */
+    font-size: 14px; /* Adjust subheader font size */
+    color: white; /* Change subheader color (optional) */
 }
 
 /* Style smaller headers */
 h3 {
-font-size: 8px;  /* Adjust smaller header font size */
-color: #white;   /* Change smaller header color (optional) */
+    font-size: 12px; /* Adjust smaller header font size */
+    color: white; /* Change smaller header color (optional) */
 }   
-/* Set the sidebar width */
-[data-testid="stSidebar"] {
-min-width: 200px;  /* Adjust the minimum width */
-max-width: 300px;  /* Adjust the maximum width */
-}
-[data-testid="stSidebar"] .css-1d391kg {
-font-size: 4px;  /* Adjust the font size */
-}
-    
-/* Sidebar background and text */
-.css-1d391kg, .css-1lcbmhc {
-background-color: #121212 !important;  /* Dark sidebar */
-color: white !important;  /* White text */
-}
-/* Sidebar styling */
-[data-testid="stSidebar"] {
-background-color: #2f2f2f; /* Slightly lighter dark background */
-color: #fafafa; /* White text */
-}
 
 /* Headers, subheaders, and other text elements */
 h1, h2, h3, h4, h5, h6, p, span, div {
-color: white !important;
+    color: white !important;
 }
 
 /* Metrics styling */
 .stMetric-value, .stMetric-label {
-color: white !important;
+    color: white !important;
 }
+
 /* Expander header and content */
 .streamlit-expanderHeader {
-color: white !important;
+    color: white !important;
 }
 
 .streamlit-expanderContent {
-color: white !important;
+    color: white !important;
 }
-</style>
+</style></style>
 """,
 unsafe_allow_html=True
 )
