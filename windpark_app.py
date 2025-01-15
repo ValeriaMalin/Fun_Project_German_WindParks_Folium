@@ -31,7 +31,7 @@ alt.theme.enable("dark")
 # Inject custom CSS for additional styling
 st.markdown("""
 <style>
-
+/* Main container adjustments adjustments */
 [data-testid="block-container"] {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -40,6 +40,13 @@ st.markdown("""
     margin-bottom: -7rem;
 }
 
+/* Sidebar adjustments */
+[data-testid="stSidebar"] {
+    min-width: 200px; /* Adjust the minimum width */
+    max-width: 300px; /* Adjust the maximum width */
+    background-color: #2f2f2f; /* Slightly lighter dark background */
+    color: #fafafa; /* White text */
+}
 [data-testid="stVerticalBlock"] {
     padding-left: 0rem;
     padding-right: 0rem;
