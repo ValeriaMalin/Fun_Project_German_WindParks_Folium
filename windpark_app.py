@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6, p, span, div {
 .streamlit-expanderContent {
     color: white !important;
 }
-</style></style>
+</style>
 """,
 unsafe_allow_html=True
 )
