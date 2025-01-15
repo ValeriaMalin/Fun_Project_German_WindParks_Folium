@@ -28,9 +28,8 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 # Inject custom CSS for additional styling
-st.markdown(
-    """
-    <style>
+st.markdown("""
+<style>
 
 [data-testid="block-container"] {
     padding-left: 2rem;
@@ -43,6 +42,28 @@ st.markdown(
 [data-testid="stVerticalBlock"] {
     padding-left: 0rem;
     padding-right: 0rem;
+}
+
+[data-testid="stMetricLabel"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[data-testid="stMetricDeltaIcon-Up"] {
+    position: relative;
+    left: 38%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+[data-testid="stMetricDeltaIcon-Down"] {
+    position: relative;
+    left: 38%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
     
 /* General page background */
