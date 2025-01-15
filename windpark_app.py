@@ -195,10 +195,9 @@ if page == pages[0]:
                title=dict(text='Cumulative Total', font=dict(size=16, color='white')),
                tickfont=dict(color='white')),
        legend_title=dict(font=dict(color='white')),         
-       legend=dict(font=dict(color='white'))
-                       )
-     fig1.update_layout(
-         height=400,  # Adjust height (keep it reasonable for your data)
+       legend=dict(font=dict(color='white')),
+       height=400,  # Adjust height (keep it reasonable for your data)                       )
+   
      )
     # Display the plot
     st.plotly_chart(fig1, use_container_width=True)
