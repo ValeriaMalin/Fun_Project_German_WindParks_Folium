@@ -31,9 +31,9 @@ alt.theme.enable("dark")
 
 # Inject custom CSS for additional styling
 st.markdown("""
-<style>
 
-/* Main container adjustments */
+<style>
+/* General container adjustments */
 [data-testid="block-container"] {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -51,16 +51,18 @@ st.markdown("""
 }
 
 /* Sidebar font size */
-[data-testid="stSidebar"] .css-1d391kg, 
-[data-testid="stSidebar"] .css-1lcbmhc {
-    font-size: 6px !important; /* Smaller font size for sidebar */
+[data-testid="stSidebar"] * {
+    font-size: 10px !important; /* Reduce sidebar font size */
 }
 
-/* Plot text adjustments */
-.js-plotly-plot .xtick, .js-plotly-plot .ytick, 
-.js-plotly-plot .xlabel, .js-plotly-plot .ylabel, 
-.js-plotly-plot .title {
-    font-size: 8px !important; /* Adjust plot font size */
+/* Plot font size adjustments */
+.plot-container .xtick text,
+.plot-container .ytick text,
+.plot-container .xlabel,
+.plot-container .ylabel,
+.plot-container .title {
+    font-size: 8px !important; /* Adjust font size for plots */
+    color: white !important; /* Ensure text remains visible */
 }
 
 /* General page background */
@@ -71,20 +73,20 @@ st.markdown("""
 
 /* Style the main page title */
 h1 {
-    font-size: 12px; /* Adjust title font size */
-    color: white; /* Change title color (optional) */
+    font-size: 18px; /* Adjust title font size */
+    color: white; /* Change title color */
 }
 
 /* Style subheaders */
 h2 {
-    font-size: 8px; /* Adjust subheader font size */
-    color: white; /* Change subheader color (optional) */
+    font-size: 14px; /* Adjust subheader font size */
+    color: white; /* Change subheader color */
 }
 
 /* Style smaller headers */
 h3 {
-    font-size: 6px; /* Adjust smaller header font size */
-    color: white; /* Change smaller header color (optional) */
+    font-size: 12px; /* Adjust smaller header font size */
+    color: white; /* Change smaller header color */
 }   
 
 /* Headers, subheaders, and other text elements */
@@ -95,15 +97,18 @@ h1, h2, h3, h4, h5, h6, p, span, div {
 /* Metrics styling */
 .stMetric-value, .stMetric-label {
     color: white !important;
+    font-size: 14px !important; /* Smaller metric text */
 }
 
 /* Expander header and content */
 .streamlit-expanderHeader {
     color: white !important;
+    font-size: 12px !important;
 }
 
 .streamlit-expanderContent {
     color: white !important;
+    font-size: 12px !important;
 }
 </style>
 """,
