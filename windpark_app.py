@@ -51,7 +51,7 @@ st.markdown("""
 /* Sidebar font size */
 [data-testid="stSidebar"] .css-1d391kg, 
 [data-testid="stSidebar"] .css-1lcbmhc {
-    font-size: 12px !important; /* Smaller font size for sidebar */
+    font-size: 9px !important; /* Smaller font size for sidebar */
 }
 
 
