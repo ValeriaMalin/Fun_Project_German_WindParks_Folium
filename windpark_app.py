@@ -545,7 +545,7 @@ These turbines represent the pinnacle of wind energy technology, offering flexib
        paper_bgcolor='rgba(0,0,0,0)',  # Transparent paper background
        font=dict(color='white'),  # White font for text
    #    title_font=dict(size=20, color='white'),  # Title font styling
-       height=600, width=1200,  # Adjusting size for better view)
+       height=400, width=1200,  # Adjusting size for better view)
        xaxis_tickangle=-45,
        xaxis2_tickangle=-45,
 
@@ -683,8 +683,8 @@ These turbines represent the pinnacle of wind energy technology, offering flexib
          )
 
        # Display the plot in Streamlit
-     st.subheader("Top 15 wind parks by turbine count") 
-     st.plotly_chart(fig9, use_container_width=True)
+      st.subheader("Top 15 wind parks by turbine count") 
+      st.plotly_chart(fig9, use_container_width=True)
 
 #Offshores Page
 if page == pages[1] :
