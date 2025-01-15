@@ -197,9 +197,9 @@ if page == pages[0]:
                tickfont=dict(color='white')),
        legend_title=dict(font=dict(color='white')),         
        legend=dict(font=dict(color='white')),
-       h                       )
+    )
    
-     )
+    
     # Display the plot
     st.plotly_chart(fig1, use_container_width=True)
 
