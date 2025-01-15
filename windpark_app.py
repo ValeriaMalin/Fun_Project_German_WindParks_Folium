@@ -20,6 +20,7 @@ offshores=pd.read_csv('https://raw.githubusercontent.com/ValeriaMalin/Fun_Projec
 data_l=pd.read_csv('https://raw.githubusercontent.com/ValeriaMalin/Fun_Project_German_WindParks_Folium/main/Datasets/geo_landkreis_windparks.csv', delimiter=',')
 data_b=pd.read_csv('https://raw.githubusercontent.com/ValeriaMalin/Fun_Project_German_WindParks_Folium/main/Datasets/geo_bundesland_windparks.csv', delimiter=',')
 
+
 # Set page configuration
 st.set_page_config(
     page_title="Wind Energy Dashboard",
@@ -27,6 +28,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+st.plotly_chart(fig, use_container_width=True)
 alt.theme.enable("dark")
 
 # Inject custom CSS for additional styling
