@@ -186,8 +186,9 @@ if page == pages[0]:
        )
     fig1.update_layout(
        plot_bgcolor='rgba(0,0,0,0)',  # Transparent plot background
-       paper_bgcolor='rgba(0,0,0,0)', 
-       width=1200, height=400,
+       paper_bgcolor='rgba(0,0,0,0)',
+       autosize=True, 
+       width=None, height=400,
        xaxis=dict(
               title=dict(text='Year', font=dict(size=16, color='white')),
               tickfont=dict(color='white')),
@@ -196,7 +197,7 @@ if page == pages[0]:
                tickfont=dict(color='white')),
        legend_title=dict(font=dict(color='white')),         
        legend=dict(font=dict(color='white')),
-       height=400,  # Adjust height (keep it reasonable for your data)                       )
+       h                       )
    
      )
     # Display the plot
