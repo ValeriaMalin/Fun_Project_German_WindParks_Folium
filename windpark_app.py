@@ -266,7 +266,7 @@ if page == pages[0]:
            x='Anfangjahr',  # Year on x-axis
            y='Cumulative Power (MW)',  # Cumulative power on y-axis
            color='Bundesland',  # Different lines for each Bundesland
-           title='Cumulative Turbine Power Over Time by Bundesland',
+          # title='Cumulative Turbine Power Over Time by Bundesland',
            labels={'Anfangjahr': 'Year', 'Cumulative Power (MW)': 'Cumulative Turbine Power (MW)'},
            height=600, width=1200
         )
@@ -289,7 +289,9 @@ if page == pages[0]:
         )
     
        # Display the plot using Streamlit
+        st.subheader("Cumulative Turbine Power Over Time by Bundesland")
         st.plotly_chart(fig3, use_container_width=True)
+        
     plot_cumulative_power(unique_parks)
 
     # Plot 4 - Top Manufacturers by Bundesland
