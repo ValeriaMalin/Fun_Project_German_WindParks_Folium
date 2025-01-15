@@ -356,7 +356,7 @@ if page == pages[0]:
           plot_bgcolor='rgba(0,0,0,0)',  # Transparent background
           paper_bgcolor='rgba(0,0,0,0)',  # Transparent background for Streamlit
           font=dict(color='white'),
-          title_font=dict(size=20, color='white')
+     #     title_font=dict(size=20, color='white')
         )
        # Show the plot
        return fig4 
@@ -446,7 +446,7 @@ These turbines represent the pinnacle of wind energy technology, offering flexib
        x='NUTS 1.1',
        y='Count',
        color='type',
-       title='Top 15 modern turbines across the regions',
+     #  title='Top 15 modern turbines across the regions',
        labels={'NUTS 1.1': 'Bundesland', 'type': 'Modern Turbine Type', 'Count': 'Number of Turbines'},
        height=700
        )
@@ -467,11 +467,12 @@ These turbines represent the pinnacle of wind energy technology, offering flexib
        plot_bgcolor='rgba(0,0,0,0)',  # Transparent background
        paper_bgcolor='rgba(0,0,0,0)',  # Transparent paper
        font=dict(color='white'),  # White font to match dark mode
-       title_font=dict(size=20, color='white'),
+     #  title_font=dict(size=20, color='white'),
        legend=dict(font=dict(color='white')),   # Title font styling
        legend_title=dict(font=dict(size=14, color='white')))  # Legend title styling
  
     # Display the plot in Streamlit
+     st.subheader("Top 15 modern turbines across the regions") 
      st.plotly_chart(fig5, use_container_width=True)
 
     
@@ -539,11 +540,11 @@ These turbines represent the pinnacle of wind energy technology, offering flexib
     # Update layout to match Streamlit's style
      combined_fig.update_layout(
        showlegend=False,
-       title_text="Comparison of manufacturers",
+   #    title_text="Comparison of manufacturers",
        plot_bgcolor='rgba(0,0,0,0)',  # Transparent plot background
        paper_bgcolor='rgba(0,0,0,0)',  # Transparent paper background
        font=dict(color='white'),  # White font for text
-       title_font=dict(size=20, color='white'),  # Title font styling
+   #    title_font=dict(size=20, color='white'),  # Title font styling
        height=600, width=1200,  # Adjusting size for better view)
        xaxis_tickangle=-45,
        xaxis2_tickangle=-45,
@@ -569,10 +570,11 @@ These turbines represent the pinnacle of wind energy technology, offering flexib
        
 
     # Display the combined plot
+     st.subheader("Top 15 modern turbines across the regions") 
      st.plotly_chart(combined_fig, use_container_width=True)
 
  with col3:
-      st.subheader('Top 15 wind energy contributors by "Landkreises"')
+      st.subheader('Comparison of manufacturers')
 
      #7 Plot Top 15 contributors among landkreises
       top_regions = data_l.nlargest(15, 'Anzahl')  # Replace 'Anzahl' with energy capacity if available
@@ -664,14 +666,14 @@ These turbines represent the pinnacle of wind energy technology, offering flexib
          y='Name_x',
          color='Landkreis',
       #   orientation='h',  # Horizontal bar chart
-         title='Top 15 wind parks by turbine count',
+   #      title='Top 15 wind parks by turbine count',
          labels={'count': 'Number of turbines', 'Name_x': 'Wind park', 'Landkreis': 'Landkreis'},
          height=600
         )
 
       # Customize the layout to match the Streamlit theme
       fig9.update_layout(
-         title_font=dict(size=20, color='white'),
+  #       title_font=dict(size=20, color='white'),
          yaxis=dict(title='Wind park', tickfont=dict(size=12, color='white')),
          xaxis=dict(title='Number of turbines', tickfont=dict(size=12, color='white')),
          legend_title=dict(text='Landkreis'),
@@ -681,7 +683,8 @@ These turbines represent the pinnacle of wind energy technology, offering flexib
          )
 
        # Display the plot in Streamlit
-      st.plotly_chart(fig9, use_container_width=True)
+     st.subheader("Top 15 wind parks by turbine count") 
+     st.plotly_chart(fig9, use_container_width=True)
 
 #Offshores Page
 if page == pages[1] :
